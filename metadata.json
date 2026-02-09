@@ -1,0 +1,7 @@
+{
+  "name": "TANGO DJ Pro",
+  "description": "A professional-grade DJ application for iPad featuring dual decks, a full mixer with 3-band EQ, AI-powered track suggestions via Gemini, and crossfader controls. Optimized for touch interactions with support for local and simulated cloud library management.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
