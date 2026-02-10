@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Track } from '../types';
+import { Track } from './types';
 import { MOCK_TRACKS } from "./constants";
 
 interface LibraryProps {
