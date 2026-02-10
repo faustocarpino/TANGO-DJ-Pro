@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Deck } from './components/Deck.tsx';
+import Deck from "./Deck"
 import { Mixer } from './components/Mixer';
 import { Library } from './components/Library';
 import { AIDJAssistant } from './components/AIDJAssistant';
