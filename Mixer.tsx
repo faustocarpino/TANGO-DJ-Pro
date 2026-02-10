@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Knob } from './Knob';
-import { DeckState, MixerState } from '../types';
+import { DeckState, MixerState } from "./types"
 
 interface MixerProps {
   deckA: DeckState;
