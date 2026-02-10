@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Track } from '../types';
-import { getAITrackSuggestions, getTransitionAdvice } from 'geminiService';
+import { getAITrackSuggestions, getTransitionAdvice } from "./geminiService";
 
 interface AIDJAssistantProps {
   currentTracks: (Track | null)[];
