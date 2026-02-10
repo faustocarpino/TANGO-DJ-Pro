@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Track, DeckState } from '../types';
+import { Track, DeckState } from "./types";
 
 interface DeckProps {
   id: 'A' | 'B';
