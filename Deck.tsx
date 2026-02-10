@@ -124,3 +124,5 @@ export const Deck: React.FC<DeckProps> = ({ id, state, onUpdate }) => {
     </div>
   );
 };
+
+export default Deck;
