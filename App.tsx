@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import Deck from "./Deck"
-import { Mixer } from './components/Mixer';
-import { Library } from './components/Library';
-import { AIDJAssistant } from './components/AIDJAssistant';
-import { Track, DeckState, MixerState } from './types';
-import { INITIAL_DECK_STATE } from './constants';
+import Deck from "./Deck";
+import Mixer from "./Mixer";
+import { Library } from "./Library";
+import { AIDJAssistant } from "./AIDJAssistant";
+import { Track, DeckState, MixerState } from "./types";
+import { INITIAL_DECK_STATE } from "./constants";
 
 const App: React.FC = () => {
   const [deckA, setDeckA] = useState<DeckState>({ ...INITIAL_DECK_STATE });
