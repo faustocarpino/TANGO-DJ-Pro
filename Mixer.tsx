@@ -99,3 +99,5 @@ export const Mixer: React.FC<MixerProps> = ({ deckA, deckB, mixer, onUpdateDeckA
     </div>
   );
 };
+
+export default Mixer;
